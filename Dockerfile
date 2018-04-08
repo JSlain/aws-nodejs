@@ -12,3 +12,6 @@ RUN pip install \
       awscli \
       --upgrade
 
+
+
+

@@ -1,9 +1,11 @@
 FROM node
 
+RUN apt-get purge python-requests
 
 RUN apt-get update && apt-get install -y\
-      python3 \
-      python3-pip \
+      python \
+      python-requests \
+      python-pip \
       libpython-dev \
       unzip \
       zip

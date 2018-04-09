@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y\
       unzip \
       zip
 
-RUN pip3 install \
+RUN pip install \
       awsebcli \
       awscli \
       --upgrade

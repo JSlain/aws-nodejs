@@ -1,7 +1,5 @@
 FROM node
 
-RUN apt-get purge python-requests
-
 RUN apt-get update && apt-get install -y\
       python \
       python-requests \

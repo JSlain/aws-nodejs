@@ -8,6 +8,8 @@ RUN apt-get update && apt-get install -y\
       unzip \
       zip
 
+RUN rm -rf /usr/local/lib/python2.7/dist-packages/requests*
+
 RUN pip install \
       awsebcli \
       awscli \
